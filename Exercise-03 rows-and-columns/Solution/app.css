@@ -1,0 +1,25 @@
+/* 🚨🚫🙅  START OF THE NO TOUCHING ZONE 🙅🚫🚨 */
+
+.box {
+  background-color: #42a5f5;
+  border: 3px solid black;
+  font-size: 3em;
+  padding: 0.5em;
+}
+/* 🚨🚫🙅  END OF THE NO TOUCHING ZONE 🙅🚫🚨 */
+
+/* ALL YOUR CODE GOES BELOW THIS LINE */
+/* ================================== */
+
+#container {
+  margin: 0 auto;
+  height: 600px;
+  width: 600px;
+  border: 1px solid black;
+
+  /* ⬇️⬇️⬇️ STYLE THE GRID CONTAINER HERE ⬇️⬇️⬇️ */
+  display: grid;
+  grid-template-columns: 200px 400px;
+  grid-template-rows: 100px 400px 100px;
+  /* ⬆️⬆️⬆️ STYLE THE GRID CONTAINER HERE ⬆️⬆️⬆️ */
+}

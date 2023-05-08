@@ -1,0 +1,27 @@
+/* 🚨🚫🙅  START OF THE NO TOUCHING ZONE 🙅🚫🚨 */
+#container {
+  background-size: 100px 500px;
+  background-image: linear-gradient(to right, grey 1px, transparent 1px),
+    linear-gradient(to bottom, grey 1px, transparent 1px);
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+}
+/* 🚨🚫🙅  END OF THE NO TOUCHING ZONE 🙅🚫🚨 */
+/* ALL YOUR CODE GOES BELOW THIS LINE */
+/* ================================== */
+
+#container {
+  /* ⬇️⬇️⬇️ STYLE THE GRID CONTAINER HERE ⬇️⬇️⬇️ */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* ⬆️⬆️⬆️ STYLE THE GRID CONTAINER HERE ⬆️⬆️⬆️ */
+}
+
+#pinkbox {
+  background-color: #e91e63;
+  /* ⬇️⬇️⬇️ STYLE THE PINK BOX HERE ⬇️⬇️⬇️ */
+  grid-column-start: 4;
+  /* ⬆️⬆️⬆️ STYLE THE PINK BOX HERE ⬆️⬆️⬆️ */
+}

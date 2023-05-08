@@ -1,0 +1,56 @@
+/* 🚨🚫🙅  START OF THE NO TOUCHING ZONE 🙅🚫🚨 */
+#container > * {
+  display: flex;
+  font-size: 1.5em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+#container {
+  margin: 0 auto;
+  width: 80%;
+  height: 500px;
+  border: 1px solid black;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  grid-template-areas:
+    "ad main aside"
+    "footer footer footer";
+  gap: 8px;
+}
+
+.main {
+  grid-area: main;
+  background-color: #1e88e5;
+}
+
+.ad {
+  grid-area: ad;
+  background-color: #d81b60;
+}
+
+.aside {
+  grid-area: aside;
+  background-color: #8e24aa;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #7cb342;
+}
+/* 🚨🚫🙅  END OF THE NO TOUCHING ZONE 🙅🚫🚨 */
+
+/* Write the styles to adjust the grid at screen sizes below 700px */
+/* ⬇️⬇️⬇️ YOUR STYLES GO HERE ⬇️⬇️⬇️ */
+@media (max-width: 700px) {
+  #container {
+    grid-template-areas:
+      "main main aside"
+      "ad footer footer";
+  }
+}
+/* ⬆️⬆️⬆️ YOUR STYLES GO HERE ⬆️⬆️⬆️ */

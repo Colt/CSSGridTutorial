@@ -1,0 +1,26 @@
+/* 🚨🚫🙅  START OF THE NO TOUCHING ZONE 🙅🚫🚨 */
+
+div {
+  border: 1px solid black;
+  min-height: 20px;
+}
+/* 🚨🚫🙅  END OF THE NO TOUCHING ZONE 🙅🚫🚨 */
+
+/* ALL YOUR CODE GOES BELOW THIS LINE */
+/* ================================== */
+#container {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  /* 
+  Using repeat and fractional units, create a layout with: 
+  - 5 equally sized columns
+  - 4 equally sized rows */
+
+  /* ⬇️⬇️⬇️ STYLE THE GRID CONTAINER HERE ⬇️⬇️⬇️ */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  /* ⬆️⬆️⬆️ STYLE THE GRID CONTAINER HERE ⬆️⬆️⬆️ */
+}

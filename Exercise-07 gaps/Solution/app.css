@@ -1,0 +1,28 @@
+/* 🚨🚫🙅  START OF THE NO TOUCHING ZONE 🙅🚫🚨 */
+.box {
+  border: 1px solid black;
+  background-color: #6a1b9a;
+  min-height: 20px;
+}
+/* 🚨🚫🙅  END OF THE NO TOUCHING ZONE 🙅🚫🚨 */
+
+/* ALL YOUR CODE GOES BELOW THIS LINE */
+/* ================================== */
+
+#container {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  /*  
+  - Use the grid-template shorthand to create a layot with: 
+    - 7 rows equally sized
+    - 3 columns equally sized
+  - Add 10px gaps between the rows and columns
+
+  /* ⬇️⬇️⬇️ STYLE THE GRID CONTAINER HERE ⬇️⬇️⬇️ */
+  display: grid;
+  grid-template: repeat(7, 1fr) / repeat(3, 1fr);
+  gap: 10px;
+  /* ⬆️⬆️⬆️ STYLE THE GRID CONTAINER HERE ⬆️⬆️⬆️ */
+}

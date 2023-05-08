@@ -1,0 +1,26 @@
+/* 🚨🚫🙅  START OF THE NO TOUCHING ZONE 🙅🚫🚨 */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box {
+  background-color: #ff5722;
+  min-height: 20px;
+}
+/* 🚨🚫🙅  END OF THE NO TOUCHING ZONE 🙅🚫🚨 */
+
+#container {
+  margin: 0 auto;
+  width: 500px;
+  height: 1000px;
+
+  /* Implement the following layout:
+  - 3 equally sized columns 
+  - Gaps of 10 pixels between each row and column 
+  - All Automatically created rows are 100px tall  */
+
+  /* ⬇️⬇️⬇️ STYLE THE GRID CONTAINER HERE ⬇️⬇️⬇️ */
+
+  /* ⬆️⬆️⬆️ STYLE THE GRID CONTAINER HERE ⬆️⬆️⬆️ */
+}

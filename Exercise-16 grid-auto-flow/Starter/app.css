@@ -1,0 +1,32 @@
+/* 🚨🚫🙅  START OF THE NO TOUCHING ZONE 🙅🚫🚨 */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box {
+  background-color: #29b6f6;
+  font-size: 1.7em;
+}
+.wide {
+  grid-column: span 2;
+}
+.tall {
+  grid-row: span 2;
+}
+/* 🚨🚫🙅  END OF THE NO TOUCHING ZONE 🙅🚫🚨 */
+
+#container {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 2px;
+  /* ⬇️⬇️⬇️ STYLE THE GRID CONTAINER HERE ⬇️⬇️⬇️ */
+
+  /* ⬆️⬆️⬆️ STYLE THE GRID CONTAINER HERE ⬆️⬆️⬆️ */
+}

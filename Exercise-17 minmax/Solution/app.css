@@ -1,0 +1,20 @@
+/* 🚨🚫🙅  START OF THE NO TOUCHING ZONE 🙅🚫🚨 */
+.box {
+  background-color: #ff7979;
+  min-height: 20px;
+}
+.box.green {
+  background-color: #badc58;
+}
+/* 🚨🚫🙅  END OF THE NO TOUCHING ZONE 🙅🚫🚨 */
+
+#container {
+  margin: 0 auto;
+  width: 80%;
+  height: 500px;
+  border: 1px solid black;
+  /* ⬇️⬇️⬇️ STYLE THE GRID CONTAINER HERE ⬇️⬇️⬇️ */
+  display: grid;
+  grid-template-columns: 1fr minmax(300px, 1fr) 1fr;
+  /* ⬆️⬆️⬆️ STYLE THE GRID CONTAINER HERE ⬆️⬆️⬆️ */
+}

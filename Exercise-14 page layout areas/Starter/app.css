@@ -1,0 +1,64 @@
+/* 🚨🚫🙅  START OF THE NO TOUCHING ZONE 🙅🚫🚨 */
+#container > * {
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  background-size: 100px 125px;
+  background-image: linear-gradient(to right, grey 1px, transparent 1px),
+    linear-gradient(to bottom, grey 1px, transparent 1px);
+}
+/* 🚨🚫🙅  END OF THE NO TOUCHING ZONE 🙅🚫🚨 */
+
+/* ALL YOUR CODE GOES BELOW THIS LINE */
+/* ================================== */
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+
+  /* ⬇️⬇️⬇️ STYLE THE GRID CONTAINER HERE ⬇️⬇️⬇️ */
+
+  /* ⬆️⬆️⬆️ STYLE THE GRID CONTAINER HERE ⬆️⬆️⬆️ */
+}
+
+.header {
+  background-color: #f44336bb;
+  /* ⬇️⬇️⬇️ STYLE THE HEADER HERE ⬇️⬇️⬇️ */
+
+  /* ⬆️⬆️⬆️ STYLE THE HEADER HERE ⬆️⬆️⬆️ */
+}
+.nav {
+  background-color: #e91e63bb;
+  /* ⬇️⬇️⬇️ STYLE THE NAV HERE ⬇️⬇️⬇️ */
+
+  /* ⬆️⬆️⬆️ STYLE THE NAV HERE ⬆️⬆️⬆️ */
+}
+.article {
+  background-color: #9c27b0bb;
+  /* ⬇️⬇️⬇️ STYLE THE ARTICLE HERE ⬇️⬇️⬇️ */
+
+  /* ⬆️⬆️⬆️ STYLE THE ARTICLE HERE ⬆️⬆️⬆️ */
+}
+
+.ads {
+  background-color: #673ab7bb;
+  /* ⬇️⬇️⬇️ STYLE THE ADS HERE ⬇️⬇️⬇️ */
+
+  /* ⬆️⬆️⬆️ STYLE THE ADS HERE ⬆️⬆️⬆️ */
+}
+
+.footer {
+  background-color: #2196f3bb;
+  /* ⬇️⬇️⬇️ STYLE THE FOOTER HERE ⬇️⬇️⬇️ */
+
+  /* ⬆️⬆️⬆️ STYLE THE FOOTER HERE ⬆️⬆️⬆️ */
+}

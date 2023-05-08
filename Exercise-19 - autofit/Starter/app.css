@@ -1,0 +1,23 @@
+/* 🚨🚫🙅  START OF THE NO TOUCHING ZONE 🙅🚫🚨 */
+.card {
+  background-color: #eceff1;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+/* 🚨🚫🙅  END OF THE NO TOUCHING ZONE 🙅🚫🚨 */
+
+#container {
+  margin: 0 auto;
+  width: 80%;
+  display: grid;
+  gap: 30px;
+
+  /* Implement the following layout 
+  - a grid of columns that are at least 250px wide, with as many as possible in a single row
+
+
+  /* ⬇️⬇️⬇️ STYLE THE GRID CONTAINER HERE ⬇️⬇️⬇️ */
+
+  /* ⬆️⬆️⬆️ STYLE THE GRID CONTAINER HERE ⬆️⬆️⬆️ */
+}

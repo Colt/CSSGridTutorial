@@ -1,0 +1,42 @@
+/* 🚨🚫🙅  START OF THE NO TOUCHING ZONE 🙅🚫🚨 */
+
+.container > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+.header {
+  background-color: #f06292;
+}
+.navbar {
+  background-color: #ba68c8;
+}
+
+.main {
+  background-color: #9575cd;
+}
+
+.footer {
+  background-color: #7986cb;
+}
+
+/* 🚨🚫🙅  END OF THE NO TOUCHING ZONE 🙅🚫🚨 */
+
+/* ALL YOUR CODE GOES BELOW THIS LINE */
+/* ================================== */
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+
+  /* create 4 rows:  
+  - 150px 
+  - 50px 
+  - 400px
+  - 150px  */
+  /* ⬇️⬇️⬇️ STYLE THE GRID CONTAINER HERE ⬇️⬇️⬇️ */
+
+  /* ⬆️⬆️⬆️ STYLE THE GRID CONTAINER HERE ⬆️⬆️⬆️ */
+}

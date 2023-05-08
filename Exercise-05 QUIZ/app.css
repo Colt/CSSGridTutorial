@@ -1,0 +1,13 @@
+div {
+  border: 1px solid black;
+}
+
+#container {
+  margin: 0 auto;
+  width: 600px;
+  height: 500px;
+  border: 1px solid black;
+
+  display: grid;
+  grid-template-columns: 1fr 100px 200px 2fr;
+}
